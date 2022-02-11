@@ -1,0 +1,57 @@
+@charset "UTF-8";
+#canvasWrapper{
+	width: 732px;
+	height: 550px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#colorInput{
+	width: auto;
+	height: auto;
+	float: left;
+	margin-right: 5px;
+}
+#colorMax{
+	margin-top: 22px;
+}
+#colorMiddle{
+	margin-top: 225px;
+}
+#colorMin{
+	margin-top: 225px;
+}
+#scale{
+	width: 206px;
+	height: auto;
+	float: left;
+}
+#scaleMax{
+	text-align: center;
+}
+#scaleCanvas{
+	width: auto;
+	height: auto;
+	border-style: solid;
+    border-width: thin;
+	border-color: #000000;
+}
+#scaleMin{
+	text-align: center;
+}
+#graphCanvas{
+	margin-top: 22px;
+	margin-left: 20px;
+	width: auto;
+	height: auto;
+	float: left;
+	border-style: solid;
+    border-width: thin;
+	border-color: #000000;
+}
+#dataInput{
+	margin-top: 15px;
+	text-align: center;
+}
+#info{
+	text-align: left;
+}

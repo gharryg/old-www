@@ -1,0 +1,28 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "cmd";
+    src: url('/fonts/cmd.eot');
+}
+@font-face {
+    font-family: "cmd";
+    src: url('/fonts/cmd.ttf');
+}
+#tools{
+    width: 100%;
+    table-layout: fixed;
+}
+#tools tr{
+    vertical-align: top;
+}
+#penteLog{
+    border-color: #000000;
+    border-style: solid;
+    border-width: thin;
+}
+#activity{
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: cmd;
+    font-size: 18px;
+    line-height: 19px;
+}

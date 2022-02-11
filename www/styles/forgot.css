@@ -1,0 +1,11 @@
+@charset "UTF-8";
+.message{
+	padding-bottom:15px;
+	color:#CC0000;
+	text-align:center;
+}
+form{
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}

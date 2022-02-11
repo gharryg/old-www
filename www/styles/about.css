@@ -1,0 +1,21 @@
+@charset "UTF-8";
+table{
+    table-layout: fixed;
+    width: 100%;
+    text-align: center;
+}
+td img{
+    width: 80%;
+}
+#swift{
+    width: 70%;
+}
+#info{
+    font-size: 16px;
+}
+#article{
+    border-color: #000000;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+}

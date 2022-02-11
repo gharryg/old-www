@@ -1,0 +1,29 @@
+version: "3.8"
+services:
+  db:
+    build: ./db
+    environment:
+      MYSQL_RANDOM_ROOT_PASSWORD: yesplz
+      MYSQL_DATABASE: gharryg
+      MYSQL_USER: gharryg
+      MYSQL_PASSWORD: iVnjc5ZYWP9vwhR3VP6DBpJD
+    ports:
+      - "127.0.0.1:3306:3306"
+    healthcheck:
+      test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost"]
+      timeout: 10s
+      retries: 3
+  www:
+    build: ./www
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "127.0.0.1:80:80"
+  pente:
+    build: ./pente
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "127.0.0.1:8008:8008"

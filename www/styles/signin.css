@@ -1,0 +1,17 @@
+@charset "UTF-8";
+.message{
+	padding-bottom:15px;
+	color:#CC0000;
+	text-align:center;
+}
+table{
+	text-align:right;
+	margin-left:auto;
+	margin-right:auto;
+}
+.center{
+	text-align:center;
+}
+#tinyLinks a{
+    color: #000000;
+}

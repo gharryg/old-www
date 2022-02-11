@@ -1,0 +1,63 @@
+@charset "UTF-8";
+body{
+	text-align:center;
+}
+table{
+	border-collapse:collapse;
+}
+#gameInfo{
+	width:668px;
+	height:158px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+#scores{
+	float:left;
+}
+#blocks{
+	float:left;
+	margin-left:20px;
+}
+#scoresTable{
+	height:95px;
+	line-height:1.2em;
+	text-align:center;
+}
+#blocksTable{
+	height:95px;
+	text-align:center;
+}
+#seed{
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding: 0;
+    -webkit-user-select:text !important;
+    -moz-user-select:text !important;
+    -ms-user-select:text !important;
+}
+#gameWrapper{
+	height:422px;
+	width:802px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#loading{
+    position: absolute;
+    font-size: 24px;
+    font-family: aerial;
+    margin-left: 325px;
+    margin-top: 190px;
+}
+#game{
+	border-style:solid;
+	border-width:thin;
+	border-color:#000;
+	margin-top:20px;
+}
+#controls{
+	margin-top:15px;
+}
+#leaderboard{
+    opacity: 0;
+}

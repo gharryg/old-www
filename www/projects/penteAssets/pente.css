@@ -1,0 +1,150 @@
+@charset "UTF-8";
+@font-face{
+    font-family: "roman";
+    src: url('/fonts/roman.eot');
+}
+@font-face{
+    font-family: "roman";
+    src: url('/fonts/roman.ttf');
+}
+@font-face{
+    font-family: "engravers";
+    src: url('/fonts/engravers.eot');
+}
+@font-face{
+    font-family: "engravers";
+    src: url('/fonts/engravers.ttf');
+}
+#message{
+    color: red;
+    text-align: center;
+    text-shadow: 1px 1px 3px #AAAAAA;
+    font-size: 32px;
+    margin-top: 15px;
+}
+#boardWrapper{
+    width: 900px;
+}
+#board{
+    opacity: 0;
+	width: 890px;
+	height: 890px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    background-image: url("images/board.png");
+    box-shadow: 0px 0px 20px #111111;
+}
+.noBorder{
+    border-style: none !important;
+}
+#overlay{
+    position: absolute;
+    margin-top: 85px;
+    margin-left: 85px;
+    opacity: 0;
+}
+#info{
+    position: absolute;
+    margin-left: 95px;
+    margin-top: 2px;
+    width: 700px;
+    height: 80px;
+}
+#player{
+    position: absolute;
+    font-size: 32px;
+    font-family: engravers;
+    color: #834934;
+    opacity: .85;
+    margin-left: 132px;
+    margin-top: 33px;
+}
+#status{
+    position: absolute;
+    margin-left: 249px;
+    margin-top: 8px;
+    padding: 0px;
+    height: 58px;
+    width: 198px;
+    padding: 2px;
+    opacity: .75;
+    color: white;
+    font-size: 16px;
+    text-shadow: 1px 1px 3px #555555;
+    line-height: 115%;
+    text-align: center;
+    vertical-align: middle;
+}
+#opponent{
+    position: absolute;
+    font-size: 32px;
+    font-family: engravers;
+    color: #834934;
+    opacity: .85;
+    margin-left: 550px;
+    margin-top: 33px;
+}
+#pieces{
+    margin-top: 85px;
+    margin-left: 85px;
+}
+#below{
+    padding-top: 1px;
+}
+#tableWrapper{
+    min-height: 340px;
+}
+#gameInfo{
+    width: 100%;
+    table-layout: fixed;
+}
+#gameInfo tr td{
+    width: 100%;
+    vertical-align: top;
+}
+iframe{
+    width: 100%;
+    height: 450px;
+    opacity: 0;
+}
+#top{
+    background-color: darkgray;
+}
+#queue{
+    border-collapse: collapse;
+}
+.queueItem:hover{
+    background-color: #CCCCCC;
+}
+.queueItem:active{
+    background-color: #AAAAAA;
+}
+#queue tr td{
+    border-width: thin;
+    border-style: solid;
+    border-color: #000000;
+}
+#queueTitle{
+    margin-bottom: 0px;
+}
+#queueStatus{
+    margin-top: 5px;
+}
+small{
+     color: grey;
+     font-size: 10px;
+     line-height: 0%;
+ }
+small ul{
+    line-height: normal;
+}
+#totalWrapper{
+    color: #000000;
+    font-size: 14px;
+}
+h4{
+    color: red;
+    margin: 0;
+}
